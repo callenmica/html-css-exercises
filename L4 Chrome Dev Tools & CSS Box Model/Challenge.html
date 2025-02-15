@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+
+      .box {
+        margin: 0px 0px 20px 0px;
+      }
+
+      .page,
+      .back-button,
+      .next-button {
+        margin: 0px 4px;
+      }
+      .back-button,
+      .next-button {
+        padding: 4px 2px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        background-color: #62b2c9;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 20px;
+      }
+
+      .stretch-button {
+        background-color: #c3597f;
+        color: white;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+        transition: padding .3s;
+        cursor: pointer;
+
+        padding: 10px 20px;
+      }
+      .stretch-button:hover {
+        padding: 40px 80px;
+      }
+
+      .shadow-button {
+        background-color: #97cbc9;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-weight: bold;
+        cursor: pointer;
+
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        transition: margin 0.3s, box-shadow 0.3s;
+      }
+      .shadow-button:active {
+        margin: 5px 0px 0px 5px;
+        box-shadow: none;
+      }
+
+      .mp {
+        background-color: #936ea1;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+
+        padding: 10px 10px;
+        margin: 0px 10px;
+
+        transition: margin .2s, padding .2s;
+      }
+      .mp:hover {
+        padding: 10px 20px;
+        margin: 0px 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Pagination</h1>
+        <button class="back-button">Back</button>
+        <a href="" class="page">1</a>
+        <a href="" class="page">2</a>
+        <a href="" class="page">3</a>
+        <a href="" class="page">4</a>
+        <a href="" class="page">5</a>
+        <button class="next-button">Next</button>
+      </div>
+      <div class="box">
+        <h1>Stretch</h1>
+        <button class="stretch-button">Stretch</button>
+      </div>
+      <div class="box">
+        <h1>3D Click</h1>
+        <button class="shadow-button">Shadow</button>
+      </div>
+      <div class="box">
+        <h1>Margin and padding together</h1>
+        <button class="mp">one</button>
+        <button class="mp">two</button>
+        <button class="mp">three</button>
+      </div>
+    </div>
+  </body>
+</html>
