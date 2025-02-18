@@ -1,0 +1,12 @@
+* {
+  font-family: Montserrat;
+  text-align: center;
+}
+.title {
+  font-size: x-large;
+  font-weight: bold;
+}
+span{
+    text-decoration: underline;
+    cursor: pointer;
+}
