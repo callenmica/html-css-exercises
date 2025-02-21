@@ -1,0 +1,20 @@
+div{
+    width: 380px;
+    background-color: rgb(46, 46, 46);
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+.desc{
+    color: rgb(161, 161, 161);
+    margin-top: 10px;
+}
