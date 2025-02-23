@@ -1,0 +1,41 @@
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+}
+.container {
+  width: 380px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.thumbnail-card {
+  display: inline-block;
+  width: 55px;
+  vertical-align: top;
+  margin-right: 4px;
+}
+.info-card {
+  display: inline-block;
+  width: 300px;
+}
+.thumbnail {
+  width: 100%;
+}
+p {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 2px;
+}
+.artist-name{
+    display: block;
+    color: rgb(105, 105, 105);
+    margin-bottom: 2px;
+}
+.song-name{
+    display: block;
+    margin-bottom: 2px;
+}
+.buttons{
+    font-size: 8px;
+    color: rgb(105, 105, 105);
+}

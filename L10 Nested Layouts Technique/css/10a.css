@@ -1,0 +1,52 @@
+* {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.profile {
+  width: 312px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.profile-pic,
+.artist-info,
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.profile-pic {
+  width: 50px;
+}
+.artist-info {
+  width: 150px;
+}
+.pic {
+  width: 100%;
+  border-radius: 50px;
+}
+.artist-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.artist-name,
+.location {
+  margin-bottom: 2px;
+}
+.location,
+.status {
+  font-size: 12px;
+  color: rgb(69, 69, 69);
+}
+button{
+    border: none;
+    color: white;
+    background-color: rgb(75, 174, 255);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
