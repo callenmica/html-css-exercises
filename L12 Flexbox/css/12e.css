@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+.box{
+    border-color: rgb(199, 199, 199);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 10px;
+    align-items: center;
+}
+.names{
+    font-weight: 400;
+}
+.numbers{
+    font-weight: bold;
+    background-color: rgb(27, 123, 212);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+}

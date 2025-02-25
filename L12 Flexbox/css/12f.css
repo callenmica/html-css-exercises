@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(131, 117, 255);
+  padding: 18px;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-section {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.middle-section {
+  flex: 1;
+  max-width: 700px;
+  min-width: 300px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.search-bar {
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.download-button {
+  color: white;
+  background-color: rgb(131, 117, 255);
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
