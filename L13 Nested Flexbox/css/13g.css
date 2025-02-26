@@ -18,7 +18,7 @@
 }
 .right-section{
     flex: 1;
-    margin-left: 15px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -44,10 +44,13 @@
     width: 100px;
     height: 100px;
     background-color: lightblue;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 9px 0px 0px 9px;
 }
 .video-info{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+}
+.url{
+    color: gray;
 }
